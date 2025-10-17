@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Profil Saya</title>
+
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #e0f2fe;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .profile {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      border-bottom: 2px solid #a7f3d0;
+      padding-bottom: 20px;
+    }
+
+    .profile img {
+      width: 180px;
+      height: 180px;
+      border-radius: 10%;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    }
+
+    h1 {
+      margin: 0;
+      color: #0f172a;
+    }
+
+    .title {
+      color: #10b981;
+      font-weight: bold;
+      margin-top: 5px;
+      margin-bottom: 10px;
+    }
+
+    .bio {
+      color: #334155;
+      line-height: 1.6;
+      font-size: 15px;
+    }
+
+    .skills {
+      list-style: none;
+      padding: 0;
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-top: 10px;
+    }
+
+    .skills li {
+      background-color: #d1fae5;
+      color: #065f46;
+      padding: 6px 12px;
+      border-radius: 15px;
+      font-weight: bold;
+      font-size: 14px;
+    }
+
+    .buttons {
+      margin-top: 15px;
+    }
+
+    .buttons a {
+      text-decoration: none;
+      background-color: #10b981;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 5px;
+      margin-right: 10px;
+      font-weight: bold;
+    }
+
+    .buttons a:hover {
+      background-color: #059669;
+    }
+
+    footer {
+      text-align: center;
+      margin-top: 30px;
+      color: #64748b;
+      font-size: 14px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="profile">
+      <img src="ikhsan.jpg" alt="Foto Profil">
+      <div>
+        <h1>Ikhsan Alif</h1>
+        <p class="title">Mahasiswa Universitas Pertamina • Ilmu Komputer</p>
+        <p class="bio">
+          Halo! Saya mahasiswa Computer Science yang suka ngulik teknologi, terutama di bidang coding dan desain web. Saya percaya bahwa teknologi bisa bikin hidup lebih mudah dan menarik, makanya saya selalu semangat buat belajar hal baru dan bikin proyek kecil-kecilan sendiri.
+        </p>
+
+        <ul class="skills" style="margin-bottom: 20px;">
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>C++</li>
+          <li>Phyton</li>
+        </ul>
+
+        <div class="buttons" style="margin-top: 20px;">
+          <a href="#hubungi">Hubungi Saya</a>
+          <a href="cv.pdf">Unduh CV</a>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      © 2025 Ikhsan Alif
+    </footer>
+  </div>
+
+</body>
+</html>
